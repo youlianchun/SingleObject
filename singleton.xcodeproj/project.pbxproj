@@ -7,35 +7,53 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A90B45FF206B572200A06831 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A90B45FE206B572200A06831 /* AppDelegate.m */; };
-		A90B4602206B572200A06831 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A90B4601206B572200A06831 /* ViewController.m */; };
-		A90B4605206B572200A06831 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A90B4603206B572200A06831 /* Main.storyboard */; };
-		A90B4607206B572200A06831 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A90B4606206B572200A06831 /* Assets.xcassets */; };
-		A90B460A206B572200A06831 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A90B4608206B572200A06831 /* LaunchScreen.storyboard */; };
-		A90B460D206B572200A06831 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A90B460C206B572200A06831 /* main.m */; };
-		A90B4615206B573300A06831 /* Singleton.mm in Sources */ = {isa = PBXBuildFile; fileRef = A90B4614206B573300A06831 /* Singleton.mm */; };
-		A90B4618206B576700A06831 /* SubSingleton.m in Sources */ = {isa = PBXBuildFile; fileRef = A90B4617206B576700A06831 /* SubSingleton.m */; };
+		A91633E820B2BE2300044EE6 /* Singleton.m in Sources */ = {isa = PBXBuildFile; fileRef = A91633E720B2BE2300044EE6 /* Singleton.m */; };
+		A91633F020B2BE8600044EE6 /* singletonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A91633EF20B2BE8600044EE6 /* singletonTests.m */; };
+		A91633F920B2BFD100044EE6 /* unit_tool.m in Sources */ = {isa = PBXBuildFile; fileRef = A91633F820B2BFD100044EE6 /* unit_tool.m */; };
+		A91633FB20B2C08000044EE6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A91633FA20B2C08000044EE6 /* Assets.xcassets */; };
+		A916340220B2C0E000044EE6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A916340020B2C0E000044EE6 /* AppDelegate.m */; };
+		A916340320B2C0E000044EE6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A916340120B2C0E000044EE6 /* main.m */; };
+		A916340820B2C10900044EE6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A916340420B2C10900044EE6 /* Main.storyboard */; };
+		A916340920B2C10900044EE6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A916340620B2C10900044EE6 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A91633F220B2BE8600044EE6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A90B45F2206B572200A06831 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A90B45F9206B572200A06831;
+			remoteInfo = singleton;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		A90B45FA206B572200A06831 /* singleton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = singleton.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		A90B45FD206B572200A06831 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		A90B45FE206B572200A06831 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		A90B4600206B572200A06831 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		A90B4601206B572200A06831 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		A90B4604206B572200A06831 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A90B4606206B572200A06831 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		A90B4609206B572200A06831 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A90B460B206B572200A06831 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A90B460C206B572200A06831 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		A90B4613206B573300A06831 /* Singleton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Singleton.h; sourceTree = "<group>"; };
-		A90B4614206B573300A06831 /* Singleton.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = Singleton.mm; sourceTree = "<group>"; };
-		A90B4616206B576700A06831 /* SubSingleton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SubSingleton.h; sourceTree = "<group>"; };
-		A90B4617206B576700A06831 /* SubSingleton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SubSingleton.m; sourceTree = "<group>"; };
+		A91633E620B2BE2300044EE6 /* Singleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Singleton.h; sourceTree = "<group>"; };
+		A91633E720B2BE2300044EE6 /* Singleton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Singleton.m; sourceTree = "<group>"; };
+		A91633ED20B2BE8600044EE6 /* singletonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = singletonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A91633EF20B2BE8600044EE6 /* singletonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = singletonTests.m; sourceTree = "<group>"; };
+		A91633F120B2BE8600044EE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A91633F720B2BFD100044EE6 /* unit_tool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = unit_tool.h; sourceTree = "<group>"; };
+		A91633F820B2BFD100044EE6 /* unit_tool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = unit_tool.m; sourceTree = "<group>"; };
+		A91633FA20B2C08000044EE6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A91633FF20B2C0E000044EE6 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A916340020B2C0E000044EE6 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A916340120B2C0E000044EE6 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A916340520B2C10900044EE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A916340720B2C10900044EE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		A90B45F7206B572200A06831 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A91633EA20B2BE8600044EE6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -49,6 +67,7 @@
 			isa = PBXGroup;
 			children = (
 				A90B45FC206B572200A06831 /* singleton */,
+				A91633EE20B2BE8600044EE6 /* singletonTests */,
 				A90B45FB206B572200A06831 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -57,6 +76,7 @@
 			isa = PBXGroup;
 			children = (
 				A90B45FA206B572200A06831 /* singleton.app */,
+				A91633ED20B2BE8600044EE6 /* singletonTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -64,21 +84,28 @@
 		A90B45FC206B572200A06831 /* singleton */ = {
 			isa = PBXGroup;
 			children = (
-				A90B4613206B573300A06831 /* Singleton.h */,
-				A90B4614206B573300A06831 /* Singleton.mm */,
-				A90B4616206B576700A06831 /* SubSingleton.h */,
-				A90B4617206B576700A06831 /* SubSingleton.m */,
-				A90B45FD206B572200A06831 /* AppDelegate.h */,
-				A90B45FE206B572200A06831 /* AppDelegate.m */,
-				A90B4600206B572200A06831 /* ViewController.h */,
-				A90B4601206B572200A06831 /* ViewController.m */,
-				A90B4603206B572200A06831 /* Main.storyboard */,
-				A90B4606206B572200A06831 /* Assets.xcassets */,
-				A90B4608206B572200A06831 /* LaunchScreen.storyboard */,
+				A91633E620B2BE2300044EE6 /* Singleton.h */,
+				A91633E720B2BE2300044EE6 /* Singleton.m */,
+				A91633FF20B2C0E000044EE6 /* AppDelegate.h */,
+				A916340020B2C0E000044EE6 /* AppDelegate.m */,
+				A91633FA20B2C08000044EE6 /* Assets.xcassets */,
+				A916340620B2C10900044EE6 /* LaunchScreen.storyboard */,
+				A916340420B2C10900044EE6 /* Main.storyboard */,
 				A90B460B206B572200A06831 /* Info.plist */,
-				A90B460C206B572200A06831 /* main.m */,
+				A916340120B2C0E000044EE6 /* main.m */,
 			);
 			path = singleton;
+			sourceTree = "<group>";
+		};
+		A91633EE20B2BE8600044EE6 /* singletonTests */ = {
+			isa = PBXGroup;
+			children = (
+				A91633F720B2BFD100044EE6 /* unit_tool.h */,
+				A91633F820B2BFD100044EE6 /* unit_tool.m */,
+				A91633EF20B2BE8600044EE6 /* singletonTests.m */,
+				A91633F120B2BE8600044EE6 /* Info.plist */,
+			);
+			path = singletonTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -101,6 +128,24 @@
 			productReference = A90B45FA206B572200A06831 /* singleton.app */;
 			productType = "com.apple.product-type.application";
 		};
+		A91633EC20B2BE8600044EE6 /* singletonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A91633F420B2BE8600044EE6 /* Build configuration list for PBXNativeTarget "singletonTests" */;
+			buildPhases = (
+				A91633E920B2BE8600044EE6 /* Sources */,
+				A91633EA20B2BE8600044EE6 /* Frameworks */,
+				A91633EB20B2BE8600044EE6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A91633F320B2BE8600044EE6 /* PBXTargetDependency */,
+			);
+			name = singletonTests;
+			productName = singletonTests;
+			productReference = A91633ED20B2BE8600044EE6 /* singletonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -113,6 +158,11 @@
 					A90B45F9206B572200A06831 = {
 						CreatedOnToolsVersion = 9.1;
 						ProvisioningStyle = Automatic;
+					};
+					A91633EC20B2BE8600044EE6 = {
+						CreatedOnToolsVersion = 9.4;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A90B45F9206B572200A06831;
 					};
 				};
 			};
@@ -130,6 +180,7 @@
 			projectRoot = "";
 			targets = (
 				A90B45F9206B572200A06831 /* singleton */,
+				A91633EC20B2BE8600044EE6 /* singletonTests */,
 			);
 		};
 /* End PBXProject section */
@@ -139,9 +190,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A90B460A206B572200A06831 /* LaunchScreen.storyboard in Resources */,
-				A90B4607206B572200A06831 /* Assets.xcassets in Resources */,
-				A90B4605206B572200A06831 /* Main.storyboard in Resources */,
+				A916340920B2C10900044EE6 /* LaunchScreen.storyboard in Resources */,
+				A91633FB20B2C08000044EE6 /* Assets.xcassets in Resources */,
+				A916340820B2C10900044EE6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A91633EB20B2BE8600044EE6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -152,29 +210,44 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A90B4602206B572200A06831 /* ViewController.m in Sources */,
-				A90B4618206B576700A06831 /* SubSingleton.m in Sources */,
-				A90B4615206B573300A06831 /* Singleton.mm in Sources */,
-				A90B460D206B572200A06831 /* main.m in Sources */,
-				A90B45FF206B572200A06831 /* AppDelegate.m in Sources */,
+				A916340220B2C0E000044EE6 /* AppDelegate.m in Sources */,
+				A916340320B2C0E000044EE6 /* main.m in Sources */,
+				A91633E820B2BE2300044EE6 /* Singleton.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A91633E920B2BE8600044EE6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A91633F020B2BE8600044EE6 /* singletonTests.m in Sources */,
+				A91633F920B2BFD100044EE6 /* unit_tool.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		A91633F320B2BE8600044EE6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A90B45F9206B572200A06831 /* singleton */;
+			targetProxy = A91633F220B2BE8600044EE6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin PBXVariantGroup section */
-		A90B4603206B572200A06831 /* Main.storyboard */ = {
+		A916340420B2C10900044EE6 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				A90B4604206B572200A06831 /* Base */,
+				A916340520B2C10900044EE6 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		A90B4608206B572200A06831 /* LaunchScreen.storyboard */ = {
+		A916340620B2C10900044EE6 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				A90B4609206B572200A06831 /* Base */,
+				A916340720B2C10900044EE6 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -312,6 +385,42 @@
 			};
 			name = Release;
 		};
+		A91633F520B2BE8600044EE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = singletonTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ylchun.singletonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/singleton.app/singleton";
+			};
+			name = Debug;
+		};
+		A91633F620B2BE8600044EE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = singletonTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ylchun.singletonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/singleton.app/singleton";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -329,6 +438,15 @@
 			buildConfigurations = (
 				A90B4611206B572200A06831 /* Debug */,
 				A90B4612206B572200A06831 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A91633F420B2BE8600044EE6 /* Build configuration list for PBXNativeTarget "singletonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A91633F520B2BE8600044EE6 /* Debug */,
+				A91633F620B2BE8600044EE6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
