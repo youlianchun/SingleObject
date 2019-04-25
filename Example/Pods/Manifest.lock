@@ -1,0 +1,16 @@
+PODS:
+  - SingleObject (0.1.0)
+
+DEPENDENCIES:
+  - SingleObject (from `../`)
+
+EXTERNAL SOURCES:
+  SingleObject:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SingleObject: 6839f47542d2db2678ecd8871b125500cb63a689
+
+PODFILE CHECKSUM: bf1a2140331d1217d334b8a0fdbc4aeb8c3751ff
+
+COCOAPODS: 1.7.0.beta.3

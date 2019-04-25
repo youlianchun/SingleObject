@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'SingleObject_Example' do
+  pod 'SingleObject', :path => '../'
+
+  target 'SingleObject_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

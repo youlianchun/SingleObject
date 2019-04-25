@@ -1,38 +1,43 @@
-# singleton
-单例基类
+# SingleObject
 
-### 使用说明
-直接继承 
+[![CI Status](https://img.shields.io/travis/youlianchun/SingleObject.svg?style=flat)](https://travis-ci.org/youlianchun/SingleObject)
+[![Version](https://img.shields.io/cocoapods/v/SingleObject.svg?style=flat)](https://cocoapods.org/pods/SingleObject)
+[![License](https://img.shields.io/cocoapods/l/SingleObject.svg?style=flat)](https://cocoapods.org/pods/SingleObject)
+[![Platform](https://img.shields.io/cocoapods/p/SingleObject.svg?style=flat)](https://cocoapods.org/pods/SingleObject)
+
+## Example
+
 ```
-@interface SubSingleton : Singleton
+@interface Singleton : SingleObject
 @end
 
-@implementation SubSingleton
+@implementation Singleton
+//注意：init方法只会执行一次
 -(instancetype)init
 {
-    self = [super init];
-    return self;
+self = [super init];
+return self;
 }
 @end
 ```
-#### 注意：init方法只会执行一次
 
-### 附 并发测试函数
-unit_tool
+To run the example project, clone the repo, and run `pod install` from the Example directory first.
+
+## Requirements
+
+## Installation
+
+SingleObject is available through [CocoaPods](https://cocoapods.org). To install
+it, simply add the following line to your Podfile:
+
+```ruby
+pod 'SingleObject'
 ```
-/*! XCTestWait.
- *  \details 等待直至 timeout 或者执行 fulfill().
- */
-OBJC_EXTERN void XCTestWait(XCTestCase* self, NSTimeInterval timeout, void(^block)(void(^fulfill)(void)));
 
+## Author
 
-/**
- 并发测试用例，超时时间请根据并发量预估，当前线程将参与测试直到并发结束。
- 
- @param threadCount 并发数量 > 1
- @param runCount  执行次数 > 0
- @param block 测试代码
- @return 总执行次数 > threadCount * threadCount
- */
-OBJC_EXTERN NSUInteger concurrent_test(NSUInteger threadCount, NSUInteger runCount, dispatch_block_t block);
-```
+youlianchun, youlianchunios@163.com
+
+## License
+
+SingleObject is available under the MIT license. See the LICENSE file for more info.
